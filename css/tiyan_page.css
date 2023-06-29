@@ -1,0 +1,85 @@
+	
+*{
+	margin: 0;
+	padding: 0;
+}
+#main{
+	
+	width: 80%;
+	background-color: azure;
+	margin-left: 10%;
+}
+#main h4{
+	font-size: 1.4375rem;
+}
+#main span:hover{
+	
+	color: #ff5500;
+}
+#main h1{
+	border-bottom: 0.125rem solid #000000;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #ff5500;
+}
+#main h3{
+	margin-left: 10%;
+}
+.tupian {
+	height: 25rem;
+	width: 80%;
+	margin-left: 15%;
+}
+.tupian img{
+	height: 25rem;
+	width: 100%%;
+	
+}
+.zi1{
+	height: 100%;
+	width: 100%;
+	margin-left: 0%;
+	font-family: SimSun, serif;
+	font-size: 3rem;
+	line-height: 1.5;
+	text-indent: 40px;
+}
+.zi2{
+	height: 120px;
+	width: 65%;
+	margin-left: 10%;
+}
+ .blockquote {
+      border-left: 4px solid #ccc;
+      padding-left: 10px;
+      margin-left: 0;
+      font-style: italic;
+	  margin-left: 0;
+    }
+  p {
+      font-size: 20px;
+      color: #666;
+      text-align: justify;
+      margin-bottom: 10px;
+	  
+    }
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;/* 图片大小 */
+}
+
+.image-wrapper {
+  position: relative;
+  width: 50%; /* 四个宫格中每个宫格占宽度的 50% */
+  /* margin: 5px; */ /* 去掉四宫格容器之间的外边距 */
+  box-sizing: border-box;
+  border: 5px solid white;
+  float: left;
+}
+.image-wrapper img {
+  display: block; /* 将图片元素从 inline 改为 block，以避免多余的空间 */
+  width: 100%; /* 让图片元素的宽度自适应它们所在的元素宽度 */
+  height: auto; /* 让图片元素的高度自适应它们所在的元素高度，保持纵横比 */
+  object-fit: cover; /* 使用 object-fit: cover 让图片填满整个容器 */
+  object-position: center; /* 保持图片在容器中心位置 */
+}

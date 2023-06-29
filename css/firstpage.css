@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style-type: none;
+}
+ html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+/* #image-container img{
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: auto;
+	display: block;
+} */
+body{
+	background-image: url('../img/lianxi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	  }
+
+.top {
+	width: 100%;
+	height: 80px;
+	
+}
+
+.log {
+	height: 80px;
+	width: 12%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	margin-right: 2%;
+	margin-left: 2%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;	
+	
+}
+.log img{
+	height: 60px;
+	
+}
+
+.choose {
+	height: 80px;
+	width: 18%;
+	line-height: 80px;
+	text-align: center;
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	color: #a5f479;
+}
+
+.choose a {
+	font-size: 20px;
+	color:  #a5f479;
+}
+
+.choose:hover {
+	background-color: #43bd5c;
+	cursor: pointer;
+	color: #aaff7f;
+	font-size: 17px;
+	transform: scale(0.8);
+	transition: transform 0.3s;
+	opacity: 0.8;
+}
+.choose:hover a{
+	color: #ffffff;
+}
+
+.shouyeli {
+	position: relative;
+	top: 100px;
+}
+
+.aaa {
+	text-decoration: none;
+	color: #ffffff;
+
+}
+.aaa:hover{
+	
+}
+
+.back {
+	height: 40px;
+	width: 75px;
+	border: 2px solid #43bd5c;
+	text-align: center;
+	line-height: 40px;
+	background-color: #43bd5c;
+	border-radius: 8px;
+}
+
+.back:hover {
+	background-color: #00ff7f;
+	transform: scale(1.2);
+	transition: transform 0.3s;
+}
+
+/* @keyframes fade {
+  0% {
+    opacity: 1; 
+  }
+  50% {
+    opacity: 0.2; 
+  }
+  100% {
+    opacity: 1; 
+  }
+}
+#image-container .animated-image {
+  animation-name: fade; 
+  animation-duration: 4s; 
+  animation-iteration-count: infinite; 
+} */

@@ -1,0 +1,114 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url('../img/zhubian_6.jpg');
+}
+.main_main{
+	height: 600px;
+	width: 100%;
+	
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.h1{
+	color:#fefefe ;
+	text-align: center;
+	letter-spacing: 100px;
+	position: relative;
+	bottom: 20
+}
+.one{
+	width: 100%;
+	border-bottom: 2px solid #ffaa00;
+}
+.h2:hover{
+	color: #ffaa00;
+}
+.main_jieshao{
+	height: 400px;
+	width: 600px;
+	border: 1px solid black;
+	float: left;
+	border-radius: 25px;
+	background-image: url('../img/beijing2.jpg');
+	opacity: 0.8;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+}
+.tupian{
+	width:38%;
+	height: 200px;
+	background-image: url('../img/shouye.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	border-radius: 500px;
+}
+.neirong h2{
+	position: relative;
+	left: 18%;
+	
+}
+.main_jieshao2{
+	height: 400px;
+	width: 600px;
+	border: 1px solid black;
+	border-radius: 25px;
+	float: right;
+	position: relative;
+	top:150px;
+	background-image: url('../img/beijng3.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	opacity: 0.8;
+	
+	
+}
+.tupian2{
+	width:38%;
+	height: 200px;
+	background-image: url('../img/knitBanner.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	border-radius: 100px;
+}
+.neirong2 h2{
+	position: absolute;
+	right: 18%;
+	
+}
+.p1{
+	font-size: 15px;
+	color: #000000;
+	 font-style: italic;
+	 letter-spacing: 5px;
+}
+.p2{
+	font-size: 15px;
+	font-style: italic;
+	letter-spacing: 5px;
+	position: relative;
+	top: 10px;
+	color: #00007f;
+}
+.aaa{
+	text-decoration: none;
+	color: #ffffff;
+	
+}
+.back{
+	height: 40px;
+	width: 75px;
+	
+	text-align: center;
+	line-height: 40px;
+	background-color: #dab018;
+	border-radius: 8px;
+}
+.back:hover{
+	background-color: #ffaa00;
+}

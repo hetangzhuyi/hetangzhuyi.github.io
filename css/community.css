@@ -1,0 +1,92 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.h1{
+	width: 100%;
+	border-bottom: 2px solid black;
+	text-align: center;
+	font-weight: 100;
+	
+}
+.big{
+	width: 70%;
+	height: auto;
+	background-color: beige;
+	margin-left: 20%;
+}
+.one{
+	width: 80%;
+	height:800px;
+	background-color: aliceblue;
+	margin-top: 30px;
+	margin-left: 10%;
+}
+.two{
+	width: 80%;
+	height:850px;
+	background-color: aliceblue;
+	margin-top: 30px;
+	margin-left: 10%;
+}
+.two h1{
+	text-align: center;
+	color: #000000;
+}
+.one h1{
+	text-align: center;
+	color: #000000;
+}
+.tupian{
+	width: 60%;
+	height: 300px;
+	margin-left: 20%;
+}
+.sige{
+	width: 45%;
+	height: 45%;
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+.tupian img{
+	height: 100%;
+	width: 100%;
+	border-radius: 20px;
+}
+.tupian img:hover{
+	transform: scale(0.9);
+	transition: transform 0.3s;
+}
+p{
+	color: #666;
+	text-align: justify;
+	letter-spacing:5px;
+}
+.wenzi{
+	width:80%;
+	margin-left: 10%;
+}
+.yiyi{
+	margin-top: 10px;
+}
+.back {
+	height: 40px;
+	width: 135px;
+	border: 2px solid #43bd5c;
+	text-align: center;
+	line-height: 40px;
+	background-color: #43bd5c;
+	border-radius: 8px;
+	margin-left:50%;
+}
+.back a{
+	text-decoration: none;
+	
+}
+
+.back:hover {
+	background-color: #00ff7f;
+	transform: scale(1.2);
+	transition: transform 0.3s;
+}

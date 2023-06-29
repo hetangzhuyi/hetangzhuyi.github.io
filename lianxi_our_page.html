@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>联系我们</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+	  body {
+	    font-family: Arial, sans-serif;
+	    background-color: #f2f2f2;
+		background-image: url('img/lianxi.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 200%;
+	  }
+	  
+	  .contact-form {
+	    max-width: 400px;
+	    margin: 0 auto;
+	    padding: 20px;
+	    background-color: #fff;
+	    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	  }
+	  
+	  h2 {
+	    text-align: center;
+	    margin-bottom: 20px;
+	  }
+	  
+	  form {
+	    display: flex;
+	    flex-direction: column;
+		
+	  }
+	  
+	  label {
+	    margin-bottom: 10px;
+	  }
+	  
+	  input[type="text"],
+	  input[type="email"],
+	  textarea {
+	    padding: 10px;
+	    margin-bottom: 15px;
+	    border: 1px solid #ccc;
+	    border-radius: 4px;
+	  }
+	  
+	  input[type="submit"] {
+	    padding: 10px 20px;
+	    background-color: #007bff;
+	    color: #fff;
+	    border: none;
+	    border-radius: 4px;
+	    cursor: pointer;
+	  }
+	  
+	  input[type="submit"]:hover {
+	    background-color: #0056b3;
+	  }
+  </style>
+</head>
+<body>
+  <div class="contact-form" style="opacity:0.8;">
+    <h2>联系我们</h2>
+    <form>
+      <label for="name">姓名：</label>
+      <input type="text" id="name" name="name" value="XXX" disabled>
+
+      <label for="email">邮箱：</label>
+      <input type="email" id="email" name="email"value="XXX" disabled>
+	  <label for="email">小红书账号：</label>
+	  <input type="email" id="email" name="email"value="1848639370" disabled>
+	  <label for="email">抖音账号：</label>
+	  <input type="email" id="email" name="email"value="54665050439" disabled>
+
+      <label for="message">留言：</label>
+      <textarea id="message" name="message"value="XXX"></textarea>
+ </form>
+      <a href="./index.html"><input type="submit" value="返回"></a>
+   
+  </div>
+</body>

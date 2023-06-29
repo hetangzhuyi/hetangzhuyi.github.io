@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>我们的基地</title>
+  <style>
+   
+	  *{
+		padding: 0;
+		margin: 0;
+	  }
+	  body{
+		  background-image: url('./img/bejjing16.jpg');
+		  background-repeat: no-repeat;
+		  background-size: 100% 120%;
+	  }
+	  ul {
+	      list-style-type: none;
+	      margin: 0;
+	      padding: 0;
+	      overflow: hidden;
+	      /* background-color: #f2f2f2; */
+	    }
+	    li {
+	      float: left;
+		  width: 20%;
+		  height: 100%;
+		  line-height: 60px;
+	    }
+	    
+	    li a {
+	      display: block;
+	      text-decoration: none;
+	      color: #000000;
+		  /* color: #222222; */
+		  font-size: 25px;
+	      text-align: center;
+	      padding: 14px 16px;
+	      font-weight: bold;
+		  /* background-color: rgba(204, 172, 109, 0.1); */
+	    }
+	    
+	    li a:hover {
+	      transform: scale(0.8);
+		  transition: transform 0.5s;
+		  background-color: rgba(204, 172, 109, 0.4);
+		  color: #ffffff;
+	    }
+    
+		.content {
+		  /* padding: 20px; */
+		  /* border: 2px solid #ffffff; */
+		  margin-top: 50px;
+		  margin-left:10% ;
+		  width: 85%;
+		  height: 500px;
+		  background-color:  rgba(255, 255, 255, 0.3);
+		  border-radius: 10px;
+		}
+		.content h2{
+			font-size: 30px;
+			text-align: center;
+			color: #000000;
+			padding-top: 20px;
+			/* border-bottom: 1px solid black; */
+			}
+		
+		.hidden {
+		  display: none;
+		}
+		.top{
+			width: 100%;
+			height: 60px;
+			/* background-color: #ddd; */
+			
+		}
+		.log{
+			height: 100%;
+			width: 10%;
+			float: left;
+		}
+		.log img{
+			height: 120%;
+			width: 100%;
+		}
+		.active{
+			background-color: rgba(204, 172, 109, 0.4);
+			color: #ffffff;
+			transform: scale(0.8);
+		}
+		.one{
+			width: 80%;
+			height: 80%;
+			margin:3% 3% 0% 8%;
+		}
+		.tupian{
+			width:40%;
+			height: 80%;
+			float: left;
+			border-radius: 10px;
+		}
+		.tupian img{
+			border-radius: 10px;
+			height: 100%;
+			width: 100%;
+		}
+			
+		.one p{
+			font-size: 24px;
+			color: #4f4f3b;;
+			letter-spacing: 5px;
+			position: relative;
+			left: 50px;
+		}
+		.adi{
+			height:40px;
+			width: 100px;
+			float: right;
+			margin-right:10px;
+			border: 1px solid #3c4e76;
+			border-radius: 10px;
+			background-color: #aaffff;
+			text-align: center;
+		}
+		.adi a{
+			font-size: 20px;
+			color: #3c4e76;
+			letter-spacing: 5px;
+			text-decoration: none;
+			line-height: 40px;
+		}
+		.adi:hover{
+			background-color: red;
+		}
+		.adi:hover a{
+			color: #ffffff;
+		}
+		.sige{
+	width: 45%;
+	height: 45%;
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+  </style>
+  <script>
+    function switchContent(contentId) {
+      const contents = document.querySelectorAll(".content");
+      const contentsli = document.querySelectorAll(".a");
+      for (let i = 0; i < contents.length; i++) {
+        if (contents[i].id === contentId & contentsli[i].id===contentId) {
+          contents[i].classList.remove("hidden");
+		  contentsli[i].classList.add("active");
+        } else {
+          contents[i].classList.add("hidden");
+		  contentsli[i].classList.remove("active");
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+	<div class="top">
+      <ul>
+        <li><a id="content1" href="#content1" class="a active" onclick="switchContent('content1')">教学园区</a></li>
+        <li><a id="content2" href="#content2" class="a" onclick="switchContent('content2')">生产园区</a></li>
+        <li><a id="content3" href="#content3" class="a" onclick="switchContent('content3')">体验园区</a></li>
+        <li><a id="content4" href="#content4" class="a" onclick="switchContent('content4')">展览园区</a></li>
+        <li><a id="content5" href="#content5" class="a" onclick="switchContent('content5')">直播园区</a></li>
+      </ul>
+	</div>
+  
+  <div id="content1" class="content">
+    <h2>教学园区</h2>
+	<div class="one">
+		<div class="tupian">
+			<img src="./img/yanxue2.jpg" alt="">
+		</div>
+		<div class="wenzi">
+			<p>
+				&nbsp;&nbsp;&nbsp;
+				教学园区是竹编生产基地的培训区域，也是传承竹编文化的重要场所。这里设有专业的教学场地和教学设施，聘请了熟练的竹编老师，为学员提供从入门到高级的全程竹编培训。在教学园区内，学员们可以亲手制作出自己的竹编作品，通过不断的学习和实践，掌握竹编的核心技术和创新思路，为竹编产业的发展贡献人才力量。
+			</p>
+		</div>
+    </div>
+  </div>
+  
+  
+  
+  <div id="content2" class="content hidden">
+    <h2>生产园区</h2>
+    <div class="one">
+    	<div class="tupian">
+    		<div class="sige"><img src="./img/shengchan8.jpg" alt=""></div>
+			<div class="sige"><img src="./img/history2.jpg" alt=""></div>
+			<div class="sige"><img src="img/shengchan5.jpg" alt=""></div>
+			<div class="sige"><img src="img/shengchn9.jpg" alt=""></div>
+    	</div>
+    	<div class="wenzi">
+    		<p>
+    			&nbsp;&nbsp;&nbsp;
+    			生产园区是竹编生产基地的核心区域，也是竹编制品的主要生产场所。这里有现代化的竹编加工设备、熟练的手工艺人和高效的生产管理体系，能够保证竹编产品的质量和产量。在生产园区内，可以看到工人们将荷塘乡当地的竹子加工成一根根整齐的竹条，再将其编织成各种精美的竹编产。生产园区还设有品质检验室，能够检测竹编产品的质量，确保产品达到出售标准，让消费者放心购买。
+    		</p>
+    	</div>
+    </div>
+  </div>
+  
+  <div id="content3" class="content hidden">
+    <h2>体验园区</h2>
+    <div class="one">
+    	<div class="tupian">
+    		<img src="./img/体验园区.jpg" alt="">
+    	</div>
+    	<div class="wenzi">
+    		<p>
+				&nbsp;&nbsp;&nbsp;
+体验园区是竹编生产基地的互动区域，它通过各种互动体验和创意设计，让消费者更深入地了解竹编产品和竹编文化。在体验区内，消费者可以亲手参与到竹编产品的制作过程中，增强对竹编的认知和理解。此外，体验园区还提供一些亲子游戏和互动项目，让家长和孩子一起享受乐趣。亲子竹艺工艺品制作活动，让家长和孩子一起制作精美的竹艺品，增强亲子之间的情感联系和沟通。同时，荷塘竹艺官方网站还开通了云上竹编体验，让消费者在购买竹编产品的同时，也能体验到竹编带来的文化内涵和艺术品味。    	</div>
+    </div>
+  </div>
+  
+  <div id="content4" class="content hidden">
+    <h2>展览园区</h2>
+    <div class="one">
+    	<div class="tupian">
+    		<div class="sige"><img src="./img/zhanlan4.jpg" alt=""></div>
+    		<div class="sige"><img src="./img/zhanlan1.jpg" alt=""></div>
+    		<div class="sige"><img src="img/zhanlan2.jpg" alt=""></div>
+    		<div class="sige"><img src="img/zhanlan3.jpg" alt=""></div>
+    	</div>
+    	<div class="wenzi">
+    		<p>
+    			&nbsp;&nbsp;&nbsp;
+展览园区是竹编生产基地的宣传区域，它通过线下展览和线上网站进行产品展示。在展览园区内，可以看到各式各样的竹编产品，如生产器具、生活器具、艺术器具、创意器具等，为消费者提供了更多的选择，同时将荷塘乡特有的红色文化与竹编技艺相结合，打造一个融合红色、生态、时尚等元素和传统竹编艺术的展览场所。这样的展览园区既可以通过展示红色文化主题的竹编作品，向人们传达革命历史、英雄事迹和时代精神，还可以通过样式繁多的现代创意竹编产品和传统手工艺品展现传统竹编技艺的魅力。		</div>
+	</div>
+  </div>
+  
+	  <div id="content5" class="content hidden">
+		<h2>直播园区</h2>
+		<div class="one">
+			<div class="tupian" style="width: 55%;">
+				<img src="./img/zhibo1.jpg" alt="">
+			</div>
+			<div class="wenzi">
+				<p>
+					&nbsp;&nbsp;&nbsp;
+					直播园区是竹编生产基地的创新区域，它通过网络直播等新兴媒体方式，将竹编产品的制作过程、技巧和文化推广到全国甚至全球，增加荷塘乡竹编产业的知名度和影响力。在直播区内，可以看到专业的主播和专家们讲解竹编知识、展示竹编作品，同时也可以与观众互动，传递竹编文化。通过直播园区的推广，竹编产业的市场份能够得到进一步扩大，为竹编制品的发展提供新的动力。    		</p>
+			</div>
+		</div>
+	  </div>
+  <div class="adi"><a href="./index.html">返回</a></div>
+</body>
+</html>

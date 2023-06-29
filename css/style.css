@@ -1,0 +1,87 @@
+/* Resets */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Global Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+main {
+  padding: 40px;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 20px;
+}
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #555;
+}
+.activity-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  nav {
+    text-align: center;
+  }
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+  .btn {
+    display: block;
+    margin: 10px auto;
+  }
+}

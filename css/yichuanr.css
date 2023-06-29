@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #f7f7f7;
+}
+.main{
+	width: 80%;
+	height: 600px;
+	background-color: rgba(255, 255, 255,0.9);
+	margin-left: 15%;
+}
+.main_2{
+	width: 80%;
+	height: 500px;
+	/* background-color: #4f9cee; */
+	background-color: rgba(255, 255, 255,0.9);
+	margin-left: 15%;
+	margin-top: 10px;
+}
+.left{
+	margin-left: 5%;
+	padding-top: 20px;
+	width: 60%;
+	float: left;
+}
+.p1{
+	color: #666;
+	text-align: justify;
+	font-size: 18px;
+}
+.p1,.p2{
+	margin-top: 10px;
+	letter-spacing:2px;
+}
+.tupian{
+	width: 30%;
+	height:300px;
+	background-color: antiquewhite;
+	float: right;
+	background-image: url('../img/ger2.png');
+	background-size: 100% 100%;
+	margin-right: 3%;
+	margin-top:10px;
+}
+.p3{
+	height: 25px;
+	width:10px;
+	background-color: #4f9cee;
+	float: left;
+	margin-top: 20px;
+}
+.p4{
+	font-size: 20px;
+	letter-spacing: 5px;
+	margin-left: 5px;
+	margin-top: 20px;
+}
+.p5{
+	letter-spacing: 2px;
+}
+	
+.ryu p{
+	line-height: 29px;
+	font-size: 15px;
+}
+.main_2 h1{
+	text-align: center;
+	padding-top: 20px;
+	}
+.h1{
+	text-align: center;
+	padding-top: 20px;
+}
+.wenzi{
+	width: 80%;
+	height: 100%;
+	margin-left: 10%;
+}
+.wenzi p{
+	line-height: 30px;
+}
